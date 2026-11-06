@@ -5,4 +5,4 @@ pages_build_output_dir = "."
 [[d1_databases]]
 binding = "DB"
 database_name = "nebula-menu-db"
-database_id = "GANTI_DENGAN_DATABASE_ID"
+database_id = "a83b9126-4b26-40f6-a363-59676fac8901"
