@@ -1,0 +1,8 @@
+name = "nebula-menu"
+compatibility_date = "2026-11-07"
+pages_build_output_dir = "."
+# Setelah membuat database D1, isi database_id di bawah ini.
+[[d1_databases]]
+binding = "DB"
+database_name = "nebula-menu-db"
+database_id = "GANTI_DENGAN_DATABASE_ID"

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin — NEBULA</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/admin.css"></head>
+<body><div class="ambient ambient-one"></div><main class="admin-shell">
+<header class="topbar"><a class="brand" href="/">NEBULA<span>.</span></a><a class="back" href="/">← Lihat website</a></header>
+<section class="admin-panel">
+<div class="eyebrow">PANEL PENGELOLA</div><h1>Kelola <span>tautan.</span></h1>
+<form id="login-form" class="stack"><label>Username admin<input id="username" type="text" autocomplete="username" required></label><label>Password admin<input id="password" type="password" autocomplete="current-password" required></label><button class="action" type="submit">Masuk</button></form>
+<div id="manager" hidden>
+<form id="link-form" class="stack">
+<input id="edit-id" type="hidden">
+<label>Nama menu<input id="title" maxlength="60" required placeholder="Contoh: Website resmi"></label>
+<label>URL tujuan<input id="url" type="url" required placeholder="https://contoh.com"></label>
+<label>Deskripsi<input id="description" maxlength="100" placeholder="Keterangan singkat"></label>
+<label>Ikon / emoji<input id="icon" maxlength="4" placeholder="✦"></label>
+<div class="actions"><button class="action" type="submit">Simpan tautan</button><button class="action secondary" id="cancel" type="button">Batal edit</button></div>
+</form><h2>Daftar tautan</h2><div id="link-list" class="link-list"></div><button id="logout" class="action secondary" type="button">Keluar</button>
+</div><p id="message" role="status"></p>
+</section></main><script src="/admin.js" defer></script></body></html>
